@@ -1,0 +1,7 @@
+table {
+	margin: auto;
+}
+
+nav {
+	text-align:center;
+}

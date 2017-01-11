@@ -24,7 +24,7 @@ catch(Exception e){
          URL u = new URL(args[i]);
          if (u.getPort() != -1) port = u.getPort();
          if (!(u.getProtocol().equalsIgnoreCase("http"))) {
-           System.err.println("Sorry. I only understand http.");
+            System.err.println("Sorry. I only understand http.");
            continue;
          }
          Socket s = new Socket(u.getHost(), port);
